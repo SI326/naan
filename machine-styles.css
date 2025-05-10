@@ -1,0 +1,247 @@
+/* Machine Status Dashboard Styles */
+
+/* Overview Cards */
+.machine-overview {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.overview-card {
+    background: var(--card-bg);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.overview-card h3 {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.overview-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.overview-trend {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.overview-trend.positive {
+    color: #4CAF50;
+}
+
+.overview-trend.negative {
+    color: #f44336;
+}
+
+.overview-trend.warning {
+    color: #ff9800;
+}
+
+/* Machine Grid */
+.machine-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.machine-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.machine-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.machine-header h3 {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+}
+
+.status-badge {
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.status-badge.active {
+    background: rgba(76, 175, 80, 0.1);
+    color: #4CAF50;
+}
+
+.status-badge.maintenance {
+    background: rgba(33, 150, 243, 0.1);
+    color: #2196F3;
+}
+
+.status-badge.warning {
+    background: rgba(255, 152, 0, 0.1);
+    color: #ff9800;
+}
+
+.status-badge.scheduled {
+    background: rgba(156, 39, 176, 0.1);
+    color: #9c27b0;
+}
+
+/* Machine Metrics */
+.machine-metrics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.metric {
+    text-align: center;
+}
+
+.metric-label {
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.25rem;
+}
+
+.metric-value {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.metric-value.warning {
+    color: #ff9800;
+}
+
+/* Machine Chart */
+.machine-chart {
+    height: 150px;
+    margin-top: 1rem;
+}
+
+/* Performance Chart */
+.performance-chart {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.performance-chart h3 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+/* Maintenance Schedule */
+.maintenance-schedule {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.maintenance-schedule h3 {
+    color: var(--text-primary);
+    margin-bottom: 1rem;
+}
+
+.schedule-table {
+    overflow-x: auto;
+}
+
+.schedule-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.schedule-table th {
+    font-weight: 500;
+    color: var(--text-secondary);
+}
+
+.schedule-table td {
+    color: var(--text-primary);
+}
+
+.action-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.action-btn:hover {
+    background: var(--primary-color-dark);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .machine-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .machine-metrics {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .schedule-table {
+        font-size: 0.9rem;
+    }
+
+    .schedule-table th,
+    .schedule-table td {
+        padding: 0.75rem;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .machine-card,
+    .overview-card,
+    .performance-chart,
+    .maintenance-schedule {
+        background: var(--card-bg-dark);
+    }
+
+    .status-badge.active {
+        background: rgba(76, 175, 80, 0.2);
+    }
+
+    .status-badge.maintenance {
+        background: rgba(33, 150, 243, 0.2);
+    }
+
+    .status-badge.warning {
+        background: rgba(255, 152, 0, 0.2);
+    }
+
+    .status-badge.scheduled {
+        background: rgba(156, 39, 176, 0.2);
+    }
+} 

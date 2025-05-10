@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Status Dashboard - AI Quality Control</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="machine-styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Navigation Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>AI Quality Control</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html"><span class="icon">📊</span>Overview</a></li>
+                <li><a href="#production"><span class="icon">🏭</span>Production</a></li>
+                <li><a href="#defects"><span class="icon">⚠️</span>Defects</a></li>
+                <li class="active"><a href="machine.html"><span class="icon">⚙️</span>Machines status</a></li>
+                <li><a href="#settings"><span class="icon">⚡</span>Settings</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="dashboard-header">
+                <h1>Machine Status Dashboard</h1>
+                <div class="date-time">
+                    <span id="current-date"></span>
+                    <span id="current-time"></span>
+                </div>
+            </header>
+
+            <!-- Machine Overview Cards -->
+            <section class="machine-overview">
+                <div class="overview-card">
+                    <h3>Total Machines</h3>
+                    <div class="overview-value">12</div>
+                    <div class="overview-trend positive">↑ 2 New</div>
+                </div>
+                <div class="overview-card">
+                    <h3>Active Machines</h3>
+                    <div class="overview-value">8</div>
+                    <div class="overview-trend">66.7% Active</div>
+                </div>
+                <div class="overview-card">
+                    <h3>Maintenance</h3>
+                    <div class="overview-value">3</div>
+                    <div class="overview-trend warning">25% In Maintenance</div>
+                </div>
+                <div class="overview-card">
+                    <h3>Alerts</h3>
+                    <div class="overview-value">1</div>
+                    <div class="overview-trend negative">1 Critical Alert</div>
+                </div>
+            </section>
+
+            <!-- Machine Status Grid -->
+            <section class="machine-grid">
+                <!-- Machine 1 -->
+                <div class="machine-card">
+                    <div class="machine-header">
+                        <h3>Machine A-101</h3>
+                        <span class="status-badge active">Active</span>
+                    </div>
+                    <div class="machine-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Efficiency</span>
+                            <span class="metric-value">94.5%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Uptime</span>
+                            <span class="metric-value">98.2%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Temperature</span>
+                            <span class="metric-value">42°C</span>
+                        </div>
+                    </div>
+                    <div class="machine-chart">
+                        <canvas id="machineAChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Machine 2 -->
+                <div class="machine-card">
+                    <div class="machine-header">
+                        <h3>Machine B-202</h3>
+                        <span class="status-badge maintenance">Maintenance</span>
+                    </div>
+                    <div class="machine-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Efficiency</span>
+                            <span class="metric-value">0%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Uptime</span>
+                            <span class="metric-value">85.7%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Temperature</span>
+                            <span class="metric-value">25°C</span>
+                        </div>
+                    </div>
+                    <div class="machine-chart">
+                        <canvas id="machineBChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Machine 3 -->
+                <div class="machine-card">
+                    <div class="machine-header">
+                        <h3>Machine C-303</h3>
+                        <span class="status-badge active">Active</span>
+                    </div>
+                    <div class="machine-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Efficiency</span>
+                            <span class="metric-value">92.1%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Uptime</span>
+                            <span class="metric-value">96.8%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Temperature</span>
+                            <span class="metric-value">45°C</span>
+                        </div>
+                    </div>
+                    <div class="machine-chart">
+                        <canvas id="machineCChart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Machine 4 -->
+                <div class="machine-card">
+                    <div class="machine-header">
+                        <h3>Machine D-404</h3>
+                        <span class="status-badge warning">Warning</span>
+                    </div>
+                    <div class="machine-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Efficiency</span>
+                            <span class="metric-value">78.3%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Uptime</span>
+                            <span class="metric-value">92.1%</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Temperature</span>
+                            <span class="metric-value warning">58°C</span>
+                        </div>
+                    </div>
+                    <div class="machine-chart">
+                        <canvas id="machineDChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Machine Performance Chart -->
+            <section class="performance-chart">
+                <h3>Overall Machine Performance</h3>
+                <canvas id="performanceChart"></canvas>
+            </section>
+
+            <!-- Maintenance Schedule -->
+            <section class="maintenance-schedule">
+                <h3>Upcoming Maintenance</h3>
+                <div class="schedule-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Machine ID</th>
+                                <th>Type</th>
+                                <th>Scheduled Date</th>
+                                <th>Status</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>B-202</td>
+                                <td>Routine</td>
+                                <td>2024-03-15</td>
+                                <td><span class="status-badge maintenance">In Progress</span></td>
+                                <td><button class="action-btn">View Details</button></td>
+                            </tr>
+                            <tr>
+                                <td>A-101</td>
+                                <td>Preventive</td>
+                                <td>2024-03-20</td>
+                                <td><span class="status-badge scheduled">Scheduled</span></td>
+                                <td><button class="action-btn">Reschedule</button></td>
+                            </tr>
+                            <tr>
+                                <td>C-303</td>
+                                <td>Routine</td>
+                                <td>2024-03-25</td>
+                                <td><span class="status-badge scheduled">Scheduled</span></td>
+                                <td><button class="action-btn">Reschedule</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <script src="machine.js"></script>
+</body>
+</html>

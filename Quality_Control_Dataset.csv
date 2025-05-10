@@ -1,0 +1,501 @@
+Product_ID,Defect_Type,Defect_Severity,Defect_Location,Inspection_Result
+1001,Discoloration,High,Edge,Fail
+1002,Misalignment,High,Center,Fail
+1003,No Defect,None,None,Pass
+1004,No Defect,None,None,Pass
+1005,Discoloration,None,Center,Pass
+1006,Discoloration,High,Edge,Fail
+1007,Discoloration,High,Edge,Fail
+1008,Crack,High,Edge,Fail
+1009,No Defect,None,None,Pass
+1010,Discoloration,Low,Random,Pass
+1011,Discoloration,None,Edge,Pass
+1012,Discoloration,Medium,Center,Fail
+1013,Crack,High,Center,Fail
+1014,Discoloration,High,Center,Fail
+1015,Misalignment,High,Random,Fail
+1016,Misalignment,High,Center,Fail
+1017,No Defect,None,None,Pass
+1018,Discoloration,None,None,Pass
+1019,No Defect,None,None,Pass
+1020,Crack,Medium,Random,Fail
+1021,Discoloration,None,Center,Pass
+1022,No Defect,None,None,Pass
+1023,Misalignment,Medium,None,Fail
+1024,No Defect,None,None,Pass
+1025,Misalignment,None,Edge,Pass
+1026,Misalignment,Medium,Center,Fail
+1027,Misalignment,Low,None,Pass
+1028,Discoloration,None,Random,Pass
+1029,Misalignment,None,Center,Pass
+1030,Crack,Low,Random,Pass
+1031,Discoloration,Medium,Random,Fail
+1032,No Defect,None,None,Pass
+1033,Discoloration,High,Edge,Fail
+1034,Misalignment,Low,Edge,Pass
+1035,Crack,None,Center,Pass
+1036,No Defect,None,None,Pass
+1037,No Defect,None,None,Pass
+1038,Misalignment,Medium,Edge,Fail
+1039,Misalignment,Low,Edge,Pass
+1040,Misalignment,High,Center,Fail
+1041,Crack,Medium,Edge,Fail
+1042,No Defect,None,None,Pass
+1043,Discoloration,Low,None,Pass
+1044,Discoloration,None,Random,Pass
+1045,No Defect,None,None,Pass
+1046,Misalignment,None,Edge,Pass
+1047,Discoloration,None,None,Pass
+1048,Crack,Low,None,Pass
+1049,Discoloration,High,Center,Fail
+1050,Misalignment,Medium,Edge,Fail
+1051,Misalignment,High,Edge,Fail
+1052,Discoloration,Medium,Center,Fail
+1053,No Defect,None,None,Pass
+1054,Crack,High,None,Fail
+1055,Misalignment,High,Edge,Fail
+1056,Discoloration,Low,Random,Pass
+1057,Misalignment,Medium,Random,Fail
+1058,Misalignment,High,None,Fail
+1059,Misalignment,Low,Edge,Pass
+1060,Misalignment,High,Edge,Fail
+1061,Crack,High,Edge,Fail
+1062,Misalignment,Medium,Center,Fail
+1063,No Defect,None,None,Pass
+1064,Crack,Low,None,Pass
+1065,Discoloration,Medium,Center,Fail
+1066,No Defect,None,None,Pass
+1067,Discoloration,None,Edge,Pass
+1068,No Defect,None,None,Pass
+1069,No Defect,None,None,Pass
+1070,No Defect,None,None,Pass
+1071,Discoloration,High,Center,Fail
+1072,No Defect,None,None,Pass
+1073,Discoloration,High,Center,Fail
+1074,No Defect,None,None,Pass
+1075,No Defect,None,None,Pass
+1076,Discoloration,Medium,Random,Fail
+1077,Discoloration,Low,Random,Pass
+1078,Discoloration,Medium,Edge,Fail
+1079,Crack,Low,Center,Pass
+1080,Misalignment,Low,None,Pass
+1081,Crack,High,Edge,Fail
+1082,Misalignment,None,Center,Pass
+1083,Crack,Low,None,Pass
+1084,Misalignment,High,None,Fail
+1085,No Defect,None,None,Pass
+1086,No Defect,None,None,Pass
+1087,Crack,None,None,Pass
+1088,Crack,Low,None,Pass
+1089,Crack,None,Center,Pass
+1090,Discoloration,None,Center,Pass
+1091,Discoloration,Medium,Center,Fail
+1092,Discoloration,Low,Center,Pass
+1093,No Defect,None,None,Pass
+1094,Misalignment,Medium,Random,Fail
+1095,Misalignment,None,Center,Pass
+1096,Misalignment,None,Random,Pass
+1097,Discoloration,Medium,Random,Fail
+1098,Discoloration,None,Random,Pass
+1099,Discoloration,Medium,Center,Fail
+1100,No Defect,None,None,Pass
+1101,Crack,High,Center,Fail
+1102,Misalignment,High,Random,Fail
+1103,Misalignment,None,Random,Pass
+1104,Discoloration,Low,Edge,Pass
+1105,Discoloration,Medium,None,Fail
+1106,Crack,None,Center,Pass
+1107,Misalignment,High,None,Fail
+1108,No Defect,None,None,Pass
+1109,Discoloration,Medium,Edge,Fail
+1110,No Defect,None,None,Pass
+1111,Discoloration,None,Center,Pass
+1112,Misalignment,Medium,None,Fail
+1113,Crack,High,None,Fail
+1114,Discoloration,None,Edge,Pass
+1115,No Defect,None,None,Pass
+1116,Discoloration,Medium,Edge,Fail
+1117,No Defect,None,None,Pass
+1118,No Defect,None,None,Pass
+1119,Misalignment,Low,None,Pass
+1120,Crack,High,Center,Fail
+1121,Misalignment,High,None,Fail
+1122,Crack,High,Edge,Fail
+1123,Discoloration,High,Center,Fail
+1124,No Defect,None,None,Pass
+1125,No Defect,None,None,Pass
+1126,Crack,Low,Random,Pass
+1127,Misalignment,High,Center,Fail
+1128,No Defect,None,None,Pass
+1129,Discoloration,Low,None,Pass
+1130,No Defect,None,None,Pass
+1131,Crack,Medium,None,Fail
+1132,No Defect,None,None,Pass
+1133,Crack,Low,Random,Pass
+1134,Crack,None,Random,Pass
+1135,Crack,High,Center,Fail
+1136,Crack,Low,None,Pass
+1137,Crack,Medium,Center,Fail
+1138,Misalignment,Low,Center,Pass
+1139,Misalignment,Low,Edge,Pass
+1140,Misalignment,Medium,Center,Fail
+1141,No Defect,None,None,Pass
+1142,Crack,None,Edge,Pass
+1143,Discoloration,High,Random,Fail
+1144,Crack,High,None,Fail
+1145,No Defect,None,None,Pass
+1146,Discoloration,None,Center,Pass
+1147,Misalignment,Low,Random,Pass
+1148,Crack,Low,None,Pass
+1149,Discoloration,High,Edge,Fail
+1150,No Defect,None,None,Pass
+1151,Discoloration,High,Center,Fail
+1152,No Defect,None,None,Pass
+1153,Discoloration,None,Random,Pass
+1154,Misalignment,None,Center,Pass
+1155,Discoloration,Low,Random,Pass
+1156,No Defect,None,None,Pass
+1157,Crack,High,Random,Fail
+1158,Discoloration,High,Edge,Fail
+1159,Discoloration,Medium,None,Fail
+1160,No Defect,None,None,Pass
+1161,Discoloration,High,Center,Fail
+1162,Discoloration,High,Center,Fail
+1163,Misalignment,Low,None,Pass
+1164,Misalignment,Low,None,Pass
+1165,Crack,Low,Edge,Pass
+1166,Crack,None,None,Pass
+1167,Discoloration,None,Random,Pass
+1168,Misalignment,None,Edge,Pass
+1169,No Defect,None,None,Pass
+1170,Discoloration,Low,Center,Pass
+1171,No Defect,None,None,Pass
+1172,Misalignment,None,Edge,Pass
+1173,No Defect,None,None,Pass
+1174,Crack,None,Center,Pass
+1175,Discoloration,None,None,Pass
+1176,Crack,High,Random,Fail
+1177,No Defect,None,None,Pass
+1178,Discoloration,Low,Center,Pass
+1179,No Defect,None,None,Pass
+1180,Discoloration,High,Center,Fail
+1181,Discoloration,High,Center,Fail
+1182,Misalignment,None,None,Pass
+1183,No Defect,None,None,Pass
+1184,Discoloration,Low,None,Pass
+1185,Crack,High,Center,Fail
+1186,Crack,High,Edge,Fail
+1187,Discoloration,None,Center,Pass
+1188,Misalignment,None,Edge,Pass
+1189,Crack,High,Edge,Fail
+1190,Misalignment,Medium,Random,Fail
+1191,Discoloration,High,None,Fail
+1192,No Defect,None,None,Pass
+1193,No Defect,None,None,Pass
+1194,Crack,Low,None,Pass
+1195,No Defect,None,None,Pass
+1196,Discoloration,Medium,Edge,Fail
+1197,Discoloration,Medium,Edge,Fail
+1198,Discoloration,Low,Random,Pass
+1199,Discoloration,None,Edge,Pass
+1200,No Defect,None,None,Pass
+1201,Misalignment,Medium,None,Fail
+1202,Discoloration,Low,None,Pass
+1203,No Defect,None,None,Pass
+1204,Misalignment,Medium,Center,Fail
+1205,Misalignment,Medium,Edge,Fail
+1206,Misalignment,None,Random,Pass
+1207,Crack,None,Edge,Pass
+1208,Misalignment,Medium,None,Fail
+1209,Crack,Medium,Center,Fail
+1210,Crack,Low,Center,Pass
+1211,Discoloration,High,None,Fail
+1212,Misalignment,None,Random,Pass
+1213,Misalignment,None,None,Pass
+1214,Discoloration,Low,Center,Pass
+1215,No Defect,None,None,Pass
+1216,Discoloration,High,Random,Fail
+1217,Discoloration,High,Random,Fail
+1218,Misalignment,High,Random,Fail
+1219,Crack,High,Random,Fail
+1220,No Defect,None,None,Pass
+1221,Crack,High,Random,Fail
+1222,Misalignment,None,None,Pass
+1223,Misalignment,Low,Random,Pass
+1224,Misalignment,Medium,Center,Fail
+1225,Crack,Medium,Edge,Fail
+1226,Discoloration,Low,None,Pass
+1227,Crack,High,Edge,Fail
+1228,Discoloration,High,Random,Fail
+1229,Crack,High,None,Fail
+1230,Crack,None,Edge,Pass
+1231,Discoloration,High,Edge,Fail
+1232,Misalignment,None,Edge,Pass
+1233,Discoloration,Low,Edge,Pass
+1234,Misalignment,None,Edge,Pass
+1235,Discoloration,Low,Random,Pass
+1236,No Defect,None,None,Pass
+1237,Discoloration,None,Edge,Pass
+1238,Crack,Low,None,Pass
+1239,Discoloration,Medium,Random,Fail
+1240,Discoloration,Medium,Center,Fail
+1241,Misalignment,None,Random,Pass
+1242,Crack,Medium,None,Fail
+1243,Crack,Low,Random,Pass
+1244,Misalignment,Low,Random,Pass
+1245,No Defect,None,None,Pass
+1246,Misalignment,High,Center,Fail
+1247,No Defect,None,None,Pass
+1248,Discoloration,High,Random,Fail
+1249,No Defect,None,None,Pass
+1250,Crack,Medium,None,Fail
+1251,Crack,Low,Center,Pass
+1252,No Defect,None,None,Pass
+1253,Discoloration,Low,None,Pass
+1254,Crack,None,Edge,Pass
+1255,No Defect,None,None,Pass
+1256,Misalignment,Medium,None,Fail
+1257,Misalignment,High,Random,Fail
+1258,Discoloration,Low,Center,Pass
+1259,No Defect,None,None,Pass
+1260,Discoloration,Low,Center,Pass
+1261,Misalignment,High,Edge,Fail
+1262,Misalignment,High,Center,Fail
+1263,Crack,Medium,Random,Fail
+1264,Misalignment,High,Random,Fail
+1265,Misalignment,High,Center,Fail
+1266,Misalignment,High,Random,Fail
+1267,Misalignment,None,Edge,Pass
+1268,Crack,None,None,Pass
+1269,Discoloration,Low,Random,Pass
+1270,Crack,None,Edge,Pass
+1271,Discoloration,None,Random,Pass
+1272,No Defect,None,None,Pass
+1273,Crack,Low,Center,Pass
+1274,No Defect,None,None,Pass
+1275,Misalignment,Low,None,Pass
+1276,Discoloration,High,Random,Fail
+1277,Misalignment,Medium,Edge,Fail
+1278,Crack,Medium,Edge,Fail
+1279,Misalignment,High,Edge,Fail
+1280,Misalignment,Medium,Edge,Fail
+1281,Discoloration,None,Random,Pass
+1282,Crack,Low,Edge,Pass
+1283,Discoloration,Medium,None,Fail
+1284,Discoloration,Low,Random,Pass
+1285,Discoloration,Low,Random,Pass
+1286,No Defect,None,None,Pass
+1287,Misalignment,High,None,Fail
+1288,Discoloration,Medium,Center,Fail
+1289,Misalignment,Medium,None,Fail
+1290,Misalignment,High,None,Fail
+1291,Misalignment,Low,Random,Pass
+1292,Discoloration,Medium,Edge,Fail
+1293,No Defect,None,None,Pass
+1294,Misalignment,None,Center,Pass
+1295,No Defect,None,None,Pass
+1296,No Defect,None,None,Pass
+1297,Misalignment,High,Edge,Fail
+1298,No Defect,None,None,Pass
+1299,Discoloration,Low,Center,Pass
+1300,No Defect,None,None,Pass
+1301,Misalignment,Medium,Edge,Fail
+1302,Crack,Medium,None,Fail
+1303,Crack,None,Center,Pass
+1304,Discoloration,Medium,Random,Fail
+1305,Crack,High,Random,Fail
+1306,Crack,Low,Random,Pass
+1307,Crack,Medium,Random,Fail
+1308,Discoloration,None,Random,Pass
+1309,No Defect,None,None,Pass
+1310,Misalignment,Medium,Random,Fail
+1311,Misalignment,None,Edge,Pass
+1312,Misalignment,High,Random,Fail
+1313,Crack,Medium,Edge,Fail
+1314,Crack,Low,Edge,Pass
+1315,No Defect,None,None,Pass
+1316,Discoloration,High,Center,Fail
+1317,Discoloration,Low,Edge,Pass
+1318,No Defect,None,None,Pass
+1319,Crack,Low,Center,Pass
+1320,Discoloration,High,Random,Fail
+1321,No Defect,None,None,Pass
+1322,Discoloration,Medium,None,Fail
+1323,Misalignment,Low,Center,Pass
+1324,Discoloration,Low,Random,Pass
+1325,No Defect,None,None,Pass
+1326,Misalignment,High,Random,Fail
+1327,Crack,None,Edge,Pass
+1328,Crack,Medium,Random,Fail
+1329,Crack,Low,None,Pass
+1330,Crack,Medium,Edge,Fail
+1331,Crack,None,Center,Pass
+1332,Discoloration,Medium,Random,Fail
+1333,No Defect,None,None,Pass
+1334,No Defect,None,None,Pass
+1335,Misalignment,Low,Edge,Pass
+1336,Misalignment,None,Center,Pass
+1337,Crack,High,Random,Fail
+1338,Crack,Low,Center,Pass
+1339,Misalignment,None,Center,Pass
+1340,Misalignment,Medium,Random,Fail
+1341,Misalignment,Low,None,Pass
+1342,Misalignment,None,Center,Pass
+1343,Crack,Medium,None,Fail
+1344,Misalignment,None,Edge,Pass
+1345,Crack,Medium,Random,Fail
+1346,Discoloration,None,Edge,Pass
+1347,Crack,Low,Random,Pass
+1348,Crack,High,Edge,Fail
+1349,Discoloration,Low,None,Pass
+1350,Misalignment,Low,Random,Pass
+1351,Crack,None,Edge,Pass
+1352,No Defect,None,None,Pass
+1353,Crack,Medium,Random,Fail
+1354,No Defect,None,None,Pass
+1355,Discoloration,Low,Edge,Pass
+1356,Crack,None,Center,Pass
+1357,Misalignment,High,None,Fail
+1358,Crack,High,None,Fail
+1359,Discoloration,Medium,Center,Fail
+1360,Misalignment,High,None,Fail
+1361,Crack,Low,None,Pass
+1362,Discoloration,Medium,Edge,Fail
+1363,Crack,Low,Random,Pass
+1364,Discoloration,High,Center,Fail
+1365,Misalignment,High,Center,Fail
+1366,Misalignment,Low,None,Pass
+1367,Misalignment,Medium,Center,Fail
+1368,Misalignment,None,Edge,Pass
+1369,Misalignment,High,Edge,Fail
+1370,No Defect,None,None,Pass
+1371,Discoloration,Medium,Edge,Fail
+1372,Discoloration,Low,None,Pass
+1373,Misalignment,Medium,Random,Fail
+1374,Discoloration,High,Random,Fail
+1375,Discoloration,High,None,Fail
+1376,Discoloration,Medium,Random,Fail
+1377,No Defect,None,None,Pass
+1378,Discoloration,High,None,Fail
+1379,Misalignment,Low,Edge,Pass
+1380,No Defect,None,None,Pass
+1381,No Defect,None,None,Pass
+1382,No Defect,None,None,Pass
+1383,Discoloration,Medium,Center,Fail
+1384,No Defect,None,None,Pass
+1385,No Defect,None,None,Pass
+1386,Crack,None,Edge,Pass
+1387,Discoloration,None,Random,Pass
+1388,No Defect,None,None,Pass
+1389,Crack,Low,Random,Pass
+1390,Discoloration,None,None,Pass
+1391,No Defect,None,None,Pass
+1392,Discoloration,None,None,Pass
+1393,Misalignment,None,Edge,Pass
+1394,Crack,Low,Edge,Pass
+1395,No Defect,None,None,Pass
+1396,Misalignment,Medium,None,Fail
+1397,Misalignment,Medium,Center,Fail
+1398,Crack,Medium,None,Fail
+1399,Crack,High,Random,Fail
+1400,Crack,High,None,Fail
+1401,Misalignment,Medium,None,Fail
+1402,Discoloration,Medium,None,Fail
+1403,No Defect,None,None,Pass
+1404,Discoloration,Low,Edge,Pass
+1405,Crack,None,Random,Pass
+1406,Misalignment,None,Edge,Pass
+1407,No Defect,None,None,Pass
+1408,Crack,Medium,Edge,Fail
+1409,Misalignment,None,Random,Pass
+1410,Misalignment,None,Random,Pass
+1411,Misalignment,None,Edge,Pass
+1412,Discoloration,None,Random,Pass
+1413,Discoloration,None,Random,Pass
+1414,Crack,None,Edge,Pass
+1415,No Defect,None,None,Pass
+1416,Misalignment,Medium,Center,Fail
+1417,Discoloration,High,None,Fail
+1418,No Defect,None,None,Pass
+1419,No Defect,None,None,Pass
+1420,Crack,None,Edge,Pass
+1421,Misalignment,None,Center,Pass
+1422,Crack,Low,Random,Pass
+1423,Crack,None,Random,Pass
+1424,No Defect,None,None,Pass
+1425,Misalignment,None,Random,Pass
+1426,Crack,None,Random,Pass
+1427,Misalignment,None,Edge,Pass
+1428,No Defect,None,None,Pass
+1429,Crack,None,Edge,Pass
+1430,Discoloration,None,Edge,Pass
+1431,Misalignment,Medium,Center,Fail
+1432,Misalignment,High,None,Fail
+1433,No Defect,None,None,Pass
+1434,Misalignment,None,Edge,Pass
+1435,Crack,Low,Random,Pass
+1436,Misalignment,Low,Center,Pass
+1437,No Defect,None,None,Pass
+1438,Crack,High,Edge,Fail
+1439,Discoloration,Low,Edge,Pass
+1440,No Defect,None,None,Pass
+1441,Crack,Low,None,Pass
+1442,Discoloration,None,None,Pass
+1443,Crack,Medium,Random,Fail
+1444,Discoloration,Low,None,Pass
+1445,Misalignment,Low,Random,Pass
+1446,No Defect,None,None,Pass
+1447,Crack,None,Random,Pass
+1448,Misalignment,Medium,Edge,Fail
+1449,Misalignment,None,Edge,Pass
+1450,Discoloration,Medium,Random,Fail
+1451,Crack,High,Edge,Fail
+1452,Crack,Low,None,Pass
+1453,Discoloration,Medium,Random,Fail
+1454,No Defect,None,None,Pass
+1455,Misalignment,High,None,Fail
+1456,Crack,High,None,Fail
+1457,No Defect,None,None,Pass
+1458,No Defect,None,None,Pass
+1459,Misalignment,None,None,Pass
+1460,Misalignment,Low,Random,Pass
+1461,Discoloration,Medium,Random,Fail
+1462,Crack,None,Random,Pass
+1463,No Defect,None,None,Pass
+1464,Crack,High,Random,Fail
+1465,Discoloration,Low,Random,Pass
+1466,Misalignment,None,None,Pass
+1467,Discoloration,None,Center,Pass
+1468,Crack,Medium,None,Fail
+1469,Misalignment,Medium,Center,Fail
+1470,Discoloration,None,Edge,Pass
+1471,Discoloration,Medium,Edge,Fail
+1472,Discoloration,High,Edge,Fail
+1473,Crack,None,Center,Pass
+1474,Crack,Medium,Center,Fail
+1475,Discoloration,Medium,Edge,Fail
+1476,Discoloration,None,None,Pass
+1477,Discoloration,None,Random,Pass
+1478,Misalignment,None,None,Pass
+1479,No Defect,None,None,Pass
+1480,Crack,Medium,Random,Fail
+1481,Misalignment,High,Edge,Fail
+1482,Discoloration,High,Center,Fail
+1483,Crack,None,Edge,Pass
+1484,Crack,High,Random,Fail
+1485,No Defect,None,None,Pass
+1486,Discoloration,High,Random,Fail
+1487,No Defect,None,None,Pass
+1488,Misalignment,Low,None,Pass
+1489,Misalignment,Low,Edge,Pass
+1490,Crack,Low,Center,Pass
+1491,Discoloration,Medium,Edge,Fail
+1492,No Defect,None,None,Pass
+1493,Discoloration,High,None,Fail
+1494,No Defect,None,None,Pass
+1495,No Defect,None,None,Pass
+1496,Misalignment,None,Center,Pass
+1497,No Defect,None,None,Pass
+1498,Misalignment,High,Random,Fail
+1499,Misalignment,Medium,Center,Fail
+1500,Discoloration,High,Random,Fail

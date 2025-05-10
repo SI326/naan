@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quality Control Manufacturing Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Navigation Sidebar -->
+        <nav class="sidebar">
+            <div class="logo">
+                <h2>AI Quality Control</h2>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="#overview"><span class="icon">📊</span>Overview</a></li>
+                <li><a href="#production"><span class="icon">🏭</span>Production</a></li>
+                <li><a href="#defects"><span class="icon">⚠️</span>Defects</a></li>
+                <li><a href="file:///C:/Users/SANJAI/Downloads/dash/machine.html"><span class="icon">⚙️</span>Machines status</a></li>
+                <li><a href="#settings"><span class="icon">⚡</span>Settings</a></li>
+            
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="dashboard-header">
+                <h1>Manufacturing Overview</h1>
+                <div class="date-time">
+                    <span id="current-date"></span>
+                    <span id="current-time"></span>
+                </div>
+            </header>
+
+            <!-- KPI Cards Section -->
+            <section class="kpi-cards">
+                <div class="kpi-card">
+                    <h3>Production Rate</h3>
+                    <div class="kpi-value">98.5%</div>
+                    <div class="kpi-trend positive">↑ 2.3%</div>
+                </div>
+                <div class="kpi-card">
+                    <h3>Defect Rate</h3>
+                    <div class="kpi-value">1.2%</div>
+                    <div class="kpi-trend negative">↑ 0.5%</div>
+                </div>
+                <div class="kpi-card">
+                    <h3>Machine Efficiency</h3>
+                    <div class="kpi-value">94.8%</div>
+                    <div class="kpi-trend positive">↑ 1.2%</div>
+                </div>
+                <div class="kpi-card">
+                    <h3>Quality Score</h3>
+                    <div class="kpi-value">96.3%</div>
+                    <div class="kpi-trend positive">↑ 0.8%</div>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="charts-container">
+                <div class="chart-wrapper">
+                    <h3>Production Trends</h3>
+                    <canvas id="productionChart"></canvas>
+                </div>
+                <div class="chart-wrapper">
+                    <h3>Defect Analysis</h3>
+                    <canvas id="defectChart"></canvas>
+                </div>
+                <div class="chart-wrapper">
+                    <h3>Profit Distribution</h3>
+                    <canvas id="profitPieChart"></canvas>
+                </div>
+                <div class="chart-wrapper">
+                    <h3>Profit & Loss Analysis</h3>
+                    <canvas id="profitLossChart"></canvas>
+                </div>
+            </section>
+
+            <!-- Machine Status Section -->
+        
+
+            <!-- Data Table Section -->
+            <section class="data-table-section">
+                <div class="table-header">
+                    <h3>Quality Control Dataset</h3>
+                    <div class="table-controls">
+                        <input type="text" id="searchInput" placeholder="Search...">
+                        <select id="filterSelect">
+                            <option value="all">All Records</option>
+                            <option value="Pass">Pass Only</option>
+                            <option value="Fail">Fail Only</option>
+                            <option value="High">High Severity</option>
+                        </select>
+                        <button id="exportBtn" class="export-btn">Export Data</button>
+                    </div>
+                </div>
+                <div class="table-container">
+                    <table id="qualityTable">
+                        <thead>
+                            <tr>
+                                <th>Product ID</th>
+                                <th>Defect Type</th>
+                                <th>Severity</th>
+                                <th>Location</th>
+                                <th>Result</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Data will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
